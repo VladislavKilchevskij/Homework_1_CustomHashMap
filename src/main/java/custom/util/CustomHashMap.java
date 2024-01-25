@@ -18,7 +18,7 @@ public class CustomHashMap<K, V> implements Map<K, V> {
     public static final int INIT_BUCKET_ARRAY_CAPACITY = 16;
 
     /**
-     * Значение коэффициента заполнения хэш-таблицы по умослчанию.
+     * Значение коэффициента заполнения хэш-таблицы по умолчанию.
      */
     private static final float DEFAULT_LOAD_FACTOR = 0.75f;
     private Node<K, V>[] table;
